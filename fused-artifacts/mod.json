@@ -6,10 +6,11 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.1.0",
+	"version" : "1.1.1",
 	"downloadSize" : 0.01,
 	"changelog" :
 	{
+		"1.1.1"  : [ "Fixed Angelic Alliance from HotA game balance" ],
 		"1.1.0"  : [ "Fixed artifacts bonuses" ],
 		"1.0.0"  : [ "Initial release" ]
 	},
