@@ -9,6 +9,7 @@
 	"version" : "1.1.2",
 	"changelog" :
 	{
+		"1.1.3"  : [ "Added WoG, ToW, and Third Upgrades compatibility."],
 		"1.1.2"  : [ "Update for vcmi-1.7 format" ],
 		"1.1.1"  : [ "Fixed Angelic Alliance from HotA game balance" ],
 		"1.1.0"  : [ "Fixed artifacts bonuses" ],

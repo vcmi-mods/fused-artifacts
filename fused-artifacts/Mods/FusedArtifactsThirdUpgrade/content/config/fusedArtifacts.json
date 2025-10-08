@@ -1,0 +1,61 @@
+{
+    "third-upgrades:magicCompendium":{
+        "fusedComponents":true,
+        "bonuses":{
+			"AllMagicExpert":
+			{
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype" : "spellSchool.any",
+				"val": 3
+			},
+			"SummonHurricaneElementals":
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.summonHurricaneElemental",
+				"propagator": "HERO"
+			},
+			"SummonCryogenicElementals":
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.summonCryogenicElemental",
+				"propagator": "HERO"
+			},
+			"SummonPlasmaElementals":
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.summonPlasmaElemental",
+				"propagator": "HERO"
+			},
+			"SummonLavaElementals":
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.summonLavaElemental",
+				"propagator": "HERO"
+			},
+            "FireSpells" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "fire",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+            "AirSpells" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "air",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+            "WaterSpells" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "water",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+            "EarthSpells" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "earth",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		}
+    }
+}

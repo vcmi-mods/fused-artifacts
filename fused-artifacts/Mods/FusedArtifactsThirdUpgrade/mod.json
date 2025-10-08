@@ -1,0 +1,23 @@
+{
+	"name" : "Fused Artifacts Third Upgrades",
+	"description" : "A Fused artifacts compatibility patch for Heroes 3 Third Upgrades Mod. Adds fuzed version of Magic Compendium.", 
+	"modType" : "Artifacts",
+	"author" : "Krs",
+	"contact" : "",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "0.0.1",
+	"downloadSize" : 0.01,
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+    "depends" :
+	[
+		"third-upgrades"
+	],
+	"artifacts" :
+	[
+		"config/fusedArtifacts"
+	]
+}

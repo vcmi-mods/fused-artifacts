@@ -1,0 +1,91 @@
+{
+	"wake-of-gods.artifacts:bucklerOfBeelzebub" :
+	{
+		"fusedComponents":true,
+		"slot":"LEFT_HAND",
+		"text" : {
+			"name" : "Buckler of Beelzebub",
+			"description" : "{Buckler of Beelzebub}\r\n\r\nHeld with the left hand, the Buckler of the Beelzebub gives the wearer a devil's power to teleport and avoid retaliation.",
+			"event" : "You pick up the Buckler of Beelzebub. Helding it with left hand you posses knowledge of travel through dimensions."
+		},
+		"bonuses":{
+			"spellKnowledge" : {
+				"type" : "SPELL",
+				"subtype" : "dimensionDoor",
+				"val" : 0
+			},
+			"preventRetaliation":{
+				"type":"BLOCKS_RETALIATION"
+			},
+			"preventRangedRetaliation":{
+				"type":"BLOCKS_RANGED_RETALIATION"
+			},
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			"spellPower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		}
+	},
+	"wake-of-gods.artifacts:barbarianLordsAxeOfFerocity":{
+		"fusedComponents":true,
+		"bonuses":{
+			"plusAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [
+					"noneOf",
+					"SHOOTER_ONLY"
+				]
+			},
+			"attack" :
+			{
+				"subtype" : "attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defence" :
+			{
+				"subtype" : "defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"spellpower" :
+			{
+				"subtype" : "spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" :
+			{
+				"subtype" : "knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
+		}
+	}
+}
