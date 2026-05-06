@@ -1,7 +1,8 @@
 {
     "tides-of-war.artifacts:mdtBinoculars":{
         "fusedComponents":true,
-        "vision1" : {
+		"bonuses" : {
+			"vision1" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsMonsters",
 				"val" : 3,
@@ -33,9 +34,31 @@
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
-
+		}
     },
     "tides-of-war.artifacts:mdtThirdEye":{
-        "fusedComponents":true
+        "fusedComponents":true,
+		"bonuses" : {
+			"casts" : {
+				"type" : "CASTS",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+				"val" : -1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"spellChance" : {
+				"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				"val" : 90,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"spellLimit" : {
+				"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
     }
 }
