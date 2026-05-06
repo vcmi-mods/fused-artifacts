@@ -2,8 +2,7 @@
 	"hota.artifacts:diplomatsCloak" : {
 		"fusedComponents" : true,
 		"bonuses" : {
-			"discount" :
-			{
+			"discount" : {
 				"type" : "SURRENDER_DISCOUNT",
 				"val" : 30,
 				"valueType" : "BASE_NUMBER"
@@ -13,8 +12,7 @@
 	"hota.artifacts:goldenGoose" : {
 		"fusedComponents" : true,
 		"bonuses" : {
-			"gold" :
-			{
+			"gold" : {
 				"type" : "GENERATE_RESOURCE",
 				"subtype" : "gold",
 				"valueType" : "BASE_NUMBER",
@@ -25,57 +23,49 @@
 	"hota.artifacts:ironfistOfTheOgre" : {
 		"fusedComponents" : true,
 		"bonuses" : {
-			"haste" :
-			{
+			"haste" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "haste",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			"bloodLust" :
-			{
+			"bloodLust" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "bloodlust",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "fireShield",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			"counterstrike" :
-			{
+			"counterstrike" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "counterstrike",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			"attack" :
-			{
+			"attack" : {
 				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
-			"defence" :
-			{
+			"defence" : {
 				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"subtype" : "spellpower",
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,
 				"valueType" : "BASE_NUMBER"
 			},
-			"knowledge" :
-			{
+			"knowledge" : {
 				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,
@@ -86,8 +76,7 @@
 	"hota.artifacts:pendantOfReflection" : {
 		"fusedComponents" : true,
 		"bonuses" : {
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 50,
 				"valueType" : "BASE_NUMBER"

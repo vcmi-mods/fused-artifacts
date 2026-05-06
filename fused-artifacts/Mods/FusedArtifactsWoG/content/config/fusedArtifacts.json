@@ -1,24 +1,23 @@
 {
-	"wake-of-gods.artifacts:bucklerOfBeelzebub" :
-	{
-		"fusedComponents":true,
-		"slot":"LEFT_HAND",
+	"wake-of-gods.artifacts:bucklerOfBeelzebub" : {
+		"fusedComponents" : true,
+		"slot" : "LEFT_HAND",
 		"text" : {
 			"name" : "Buckler of Beelzebub",
 			"description" : "{Buckler of Beelzebub}\r\n\r\nHeld with the left hand, the Buckler of the Beelzebub gives the wearer a devil's power to teleport and avoid retaliation.",
 			"event" : "You pick up the Buckler of Beelzebub. Helding it with left hand you posses knowledge of travel through dimensions."
 		},
-		"bonuses":{
+		"bonuses" : {
 			"spellKnowledge" : {
 				"type" : "SPELL",
 				"subtype" : "dimensionDoor",
 				"val" : 0
 			},
-			"preventRetaliation":{
-				"type":"BLOCKS_RETALIATION"
+			"preventRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
 			},
-			"preventRangedRetaliation":{
-				"type":"BLOCKS_RANGED_RETALIATION"
+			"preventRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION"
 			},
 			"attack" : {
 				"type" : "PRIMARY_SKILL",
@@ -46,9 +45,9 @@
 			}
 		}
 	},
-	"wake-of-gods.artifacts:barbarianLordsAxeOfFerocity":{
-		"fusedComponents":true,
-		"bonuses":{
+	"wake-of-gods.artifacts:barbarianLordsAxeOfFerocity" : {
+		"fusedComponents" : true,
+		"bonuses" : {
 			"plusAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
@@ -58,29 +57,25 @@
 					"SHOOTER_ONLY"
 				]
 			},
-			"attack" :
-			{
+			"attack" : {
 				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
-			"defence" :
-			{
+			"defence" : {
 				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"subtype" : "spellpower",
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,
 				"valueType" : "BASE_NUMBER"
 			},
-			"knowledge" :
-			{
+			"knowledge" : {
 				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,

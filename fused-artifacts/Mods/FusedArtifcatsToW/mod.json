@@ -1,6 +1,6 @@
 {
 	"name" : "Fused Artifacts ToW",
-	"description" : "A Fused artifacts compatibility patch for Heroes 3 Tides Of War Mod. Adds fuzed version of Binoculars and Third Eye.", 
+	"description" : "A Fused artifacts compatibility patch for Heroes 3 Tides Of War Mod. Adds fuzed version of Binoculars and Third Eye.",
 	"modType" : "Artifacts",
 	"author" : "Krs",
 	"contact" : "",
@@ -8,17 +8,13 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "0.0.1",
 	"downloadSize" : 0.01,
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"depends" :
-	[
+	"depends" : [
 		"tides-of-war.artifacts"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/fusedArtifacts"
 	]
 }
-

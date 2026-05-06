@@ -1,6 +1,6 @@
 {
-    "tides-of-war.artifacts:mdtBinoculars":{
-        "fusedComponents":true,
+	"tides-of-war.artifacts:mdtBinoculars" : {
+		"fusedComponents" : true,
 		"bonuses" : {
 			"vision1" : {
 				"type" : "VISIONS",
@@ -28,16 +28,16 @@
 				"val" : 4,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-            "immunity" : {
+			"immunity" : {
 				"subtype" : "spell.blind",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
 		}
-    },
-    "tides-of-war.artifacts:mdtThirdEye":{
-        "fusedComponents":true,
+	},
+	"tides-of-war.artifacts:mdtThirdEye" : {
+		"fusedComponents" : true,
 		"bonuses" : {
 			"casts" : {
 				"type" : "CASTS",
@@ -60,5 +60,5 @@
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		}
-    }
+	}
 }

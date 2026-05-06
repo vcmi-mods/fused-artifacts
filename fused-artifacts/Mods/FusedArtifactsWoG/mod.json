@@ -1,6 +1,6 @@
 {
 	"name" : "Fused Artifacts WoG",
-	"description" : "A Fused artifacts compability patch for Heroes 3 Wake of Gods mod. Adds fuzed versions of Buckler of Beelzebub and Barbarian Lords Axe Of Ferocity.", 
+	"description" : "A Fused artifacts compability patch for Heroes 3 Wake of Gods mod. Adds fuzed versions of Buckler of Beelzebub and Barbarian Lords Axe Of Ferocity.",
 	"modType" : "Artifacts",
 	"author" : "Krs",
 	"contact" : "",
@@ -8,17 +8,13 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "0.0.1",
 	"downloadSize" : 0.01,
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"depends" :
-	[
+	"depends" : [
 		"wake-of-gods.artifacts"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/fusedArtifacts"
 	]
 }
-

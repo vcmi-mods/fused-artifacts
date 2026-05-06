@@ -1,6 +1,6 @@
 {
 	"name" : "Fused Artifacts HotA",
-	"description" : "Fused artifacts for Heroes 3 HotA", 
+	"description" : "Fused artifacts for Heroes 3 HotA",
 	"modType" : "Compatibility",
 	"author" : "Krs",
 	"contact" : "",
@@ -8,17 +8,13 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "0.0.1",
 	"downloadSize" : 0.01,
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
-	"depends" :
-	[
+	"depends" : [
 		"hota.artifacts"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/fusedArtifacts"
 	]
 }
-

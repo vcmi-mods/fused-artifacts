@@ -1,60 +1,53 @@
 {
 	"core:angelicAlliance" : {
 		"fusedComponents" : true,
-		 "bonuses" : {
-			"alignmentMix" :
-			{
+		"bonuses" : {
+			"alignmentMix" : {
 				"type" : "NONEVIL_ALIGNMENT_MIX",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
-			"prayer" :
-			{
+			"prayer" : {
 				"subtype" : "prayer",
 				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 10,
 				"valueType" : "BASE_NUMBER"
 			},
-			"attack" :
-			{
+			"attack" : {
 				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 21,
 				"valueType" : "BASE_NUMBER"
 			},
-			"defence" :
-			{
+			"defence" : {
 				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 21,
 				"valueType" : "BASE_NUMBER"
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"subtype" : "spellpower",
 				"type" : "PRIMARY_SKILL",
 				"val" : 21,
 				"valueType" : "BASE_NUMBER"
 			},
-			"knowledge" :
-			{
+			"knowledge" : {
 				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 21,
 				"valueType" : "BASE_NUMBER"
 			},
-			"morale" :
-			{
+			"morale" : {
 				"type" : "MORALE",
 				"val" : -1,
 				"valueType" : "BASE_NUMBER",
-				"limiters": [
+				"limiters" : [
 					{
-						"type":"CREATURE_ALIGNMENT_LIMITER",
-						"alignment":  "evil" 
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"alignment" : "evil"
 					}
 				]
 			}
-		 }
+		}
 	}
 }
