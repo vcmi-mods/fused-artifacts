@@ -32,10 +32,16 @@
 	},
 	"czech" : {
 		"name" : "Spojené artefakty",
-		"description" : "Tato modifikace přeměňuje stávající kombinované artefakty ze Shadow of Death a Horn of the Abyss na spojené artefakty. Na rozdíl od tradičních kombinovaných artefaktů, které při sestavení zabírají více slotů, spojený artefakt zabírá pouze jeden slot. Mějte však na paměti, že je nelze rozložit!"
+		"description" : "Tato modifikace přeměňuje stávající kombinované artefakty ze Shadow of Death a Horn of the Abyss na spojené artefakty. Na rozdíl od tradičních kombinovaných artefaktů, které při sestavení zabírají více slotů, spojený artefakt zabírá pouze jeden slot. Mějte však na paměti, že je nelze rozložit!",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Połączone artefakty",
-		"description" : "Ta modyfikacja przekształca istniejące artefakty kombinowane z Shadow of Death i Horn of the Abyss w artefakty scalone. W przeciwieństwie do tradycyjnych artefaktów kombinowanych, które po złożeniu zajmują wiele slotów, artefakt scalony zajmuje tylko jeden slot. Pamiętaj jednak, że nie można ich rozłożyć!"
+		"description" : "Ta modyfikacja przekształca istniejące artefakty kombinowane z Shadow of Death i Horn of the Abyss w artefakty scalone. W przeciwieństwie do tradycyjnych artefaktów kombinowanych, które po złożeniu zajmują wiele slotów, artefakt scalony zajmuje tylko jeden slot. Pamiętaj jednak, że nie można ich rozłożyć!",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }

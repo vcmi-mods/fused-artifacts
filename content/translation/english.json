@@ -1,0 +1,16 @@
+{
+	"mod.name" : "Fused Artifacts",
+	"mod.description" : "This modification transforms the existing combination artifacts from Shadow of Death and Horn of the Abyss into fused artifacts. Unlike traditional combination artifacts, which occupy multiple slots when assembled, a fused artifact takes up only a single slot. However, keep in mind that they cannot be disassembled!",
+	"mod.fusedartifactshota.name" : "Fused Artifacts HotA",
+	"mod.fusedartifactshota.description" : "Fused artifacts for Heroes 3 HotA",
+	"mod.fusedartifactshota.gamebalance.name" : "Fused Artifacts HotA",
+	"mod.fusedartifactshota.gamebalance.description" : "Fused artifacts for Heroes 3 HotA",
+	"mod.fusedartifactssod.name" : "Fused Artifacts SoD",
+	"mod.fusedartifactssod.description" : "Fused artifacts for Heroes 3 SoD",
+	"mod.fusedartifactsthirdupgrade.name" : "Fused Artifacts Third Upgrades",
+	"mod.fusedartifactsthirdupgrade.description" : "A Fused artifacts compatibility patch for Heroes 3 Third Upgrades Mod. Adds fuzed version of Magic Compendium.",
+	"mod.fusedartifactswog.name" : "Fused Artifacts WoG",
+	"mod.fusedartifactswog.description" : "A Fused artifacts compability patch for Heroes 3 Wake of Gods mod. Adds fuzed versions of Buckler of Beelzebub and Barbarian Lords Axe Of Ferocity.",
+	"mod.fusedartifcatstow.name" : "Fused Artifacts ToW",
+	"mod.fusedartifcatstow.description" : "A Fused artifacts compatibility patch for Heroes 3 Tides Of War Mod. Adds fuzed version of Binoculars and Third Eye."
+}
